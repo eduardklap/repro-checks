@@ -1,0 +1,29 @@
+---
+title: "Workshops"
+---
+
+## *CODECHECK-NL* workshop for Social and Behavioral Sciences
+
+**Thursday November 28, 2024**
+
+**Erasmus University Rotterdam**
+
+[![](fig/codecheck_logo.png){width="207"}](https://codecheck.org.uk/){target="_blank"}
+
+Together with the [CODECHECKing goes NL](https://www.nwo.nl/projecten/osf232063){target="_blank"} team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university **who would like their papers or projects to be “codechecked”** during a live, one-day code-checking workshop on 28 November 2024.
+
+You can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!).
+
+*Curious to know how it works? Read about the first [workshop in Delft](https://codecheck.org.uk/nl-workshop1/){target="_blank"}.*
+
+More information to follow on the [CODECHECK-NL](https://codecheck.org.uk/nl/){target="_blank"} webpage.
+
+## *Reproducible research through reusable code* workshop
+
+**December 3, 2024**
+
+**Erasmus University Rotterdam**
+
+[![](fig/netherlands-escience-center-logo-RGB-768x211.png){width="207" height="56"}](https://www.esciencecenter.nl/){target="_blank"}
+
+Together with the eScience Center, we will also host a workshop at ESSB about ***Reproducible research through reusable code*** that will help you to learn all about reproducible research in practice! More details will follow soon.

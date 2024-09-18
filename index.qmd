@@ -1,0 +1,59 @@
+---
+title: "ESSB Repro Checks"
+---
+
+## Have your paper checked for reproducibility
+
+Do you want to make sure **your next research paper is reproducible**? Then have it checked!
+
+## How does it work?
+
+If you have results from a quantitative analysis that you are about to publish, you can **send the data and code to me for an internal review**. I will perform a code review to see if your code can run on another machine and if it will produce the same output as on your machine.
+
+::: callout-note
+## Steps for the ESSB Repro Checks
+
+1.  Let me know you are interested and provide some background about your paper or project (via email or the [form](submit.qmd).
+
+2.  If possible, share your data and code on a public repository, so that I can access your materials. In case this is not possible (e.g., for privacy sensitive data), we will figure out an alternative arrangement.
+
+3.  I will try to (computationally)[^1] reproduce the results. This means I will try to regenerate the outputs including figures and tables of your paper.
+
+4.  Based on the previous step, I will provide you with a short feedback report including suggestions on how to increase the reproducibility of your findings.
+:::
+
+[^1]: Computational reproducibility means that rerunning the same analysis on the same data should reproduce the same results
+
+Please send me a message via Teams or email (e.klapwijk \[at\] essb.eur.nl) if you are interested in piloting reproducibility checks at ESSB. You can also fill in the form on the [submit your paper](submit.qmd) page and I will contact you.
+
+## The why
+
+**Why is this important?** The repro checks:
+
+-   Ensure a basic quality level of your results (being computationally reproducible).
+
+-   Lower the barrier to share your analysis code with others.
+
+-   Provide you with feedback to improve your data and code.
+
+## Additional resources
+
+If you want to learn more about (computational) reproducibility, please join one of our [workshops](workshops.qmd)! Here are some interesting papers, projects and other resources that might help to get you started:
+
+-   The ESSB Repro Checks are heavily inspired by the following projects:
+
+    -   [CODECHECK](https://codecheck.org.uk/){target="_blank"}
+
+    -   [Reprohack](https://www.reprohack.org){target="_blank"}: Building Communities of Practice in Reproducibility
+
+    -   The [“reproducibility statistician”](https://doi.org/10.17605/OSF.IO/DR35V){target="_blank"} project at the the School of Psychology at the University of Sussex
+
+## Project background
+
+The ESSB Repro Checks are part of the eScience Fellowship project [Implementing institutional reproducibility checks to promote good computational practices](https://www.esciencecenter.nl/fellowship-programme/eduard-klapwijk/ "https://www.esciencecenter.nl/fellowship-programme/eduard-klapwijk/"){target="_blank"} awarded to Eduard Klapwijk, Research Data Steward at ESSB.
+
+::: {layout-ncol="2"}
+[![Netherlands eScience Center](fig/netherlands-escience-center-logo-RGB-768x211.png){width="207" height="56"}](https://www.esciencecenter.nl/)
+
+[![Erasmus School of Social and Behavioural Sciences](fig/EUR_ESSB_EN%20stack_01_RGB_2400_colour.png){width="176"}](https://www.eur.nl/essb)
+:::
