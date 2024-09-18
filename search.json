@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "submit.html",
-    "href": "submit.html",
-    "title": "Submit your paper",
-    "section": "",
-    "text": "Fill in the short form below and I will contact you as soon as possible to discuss how we can arrange the check procedure (such as how I will be able to access your data and code). Looking forward to your submissions!"
-  },
-  {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "Workshops",
-    "section": "",
-    "text": "Thursday November 28, 2024\nErasmus University Rotterdam\n\nTogether with the CODECHECKing goes NL team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.\nYou can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!).\nCurious to know how it works? Read about the first workshop in Delft.\nMore information to follow on the CODECHECK-NL webpage."
-  },
-  {
-    "objectID": "workshops.html#codecheck-nl-workshop-for-social-and-behavioral-sciences",
-    "href": "workshops.html#codecheck-nl-workshop-for-social-and-behavioral-sciences",
-    "title": "Workshops",
-    "section": "",
-    "text": "Thursday November 28, 2024\nErasmus University Rotterdam\n\nTogether with the CODECHECKing goes NL team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.\nYou can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!).\nCurious to know how it works? Read about the first workshop in Delft.\nMore information to follow on the CODECHECK-NL webpage."
-  },
-  {
-    "objectID": "workshops.html#reproducible-research-through-reusable-code-workshop",
-    "href": "workshops.html#reproducible-research-through-reusable-code-workshop",
-    "title": "Workshops",
-    "section": "Reproducible research through reusable code workshop",
-    "text": "Reproducible research through reusable code workshop\nDecember 3, 2024\nErasmus University Rotterdam\n\nTogether with the eScience Center, we will also host a workshop at ESSB about Reproducible research through reusable code that will help you to learn all about reproducible research in practice! More details will follow soon."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ESSB Repro Checks",
@@ -46,7 +18,7 @@
     "href": "index.html#how-does-it-work",
     "title": "ESSB Repro Checks",
     "section": "How does it work?",
-    "text": "How does it work?\nIf you have results from a quantitative analysis that you are about to publish, you can send the data and code to me for an internal review. I will perform a code review to see if your code can run on another machine and if it will produce the same output as on your machine.\n\n\n\n\n\n\nSteps for the ESSB Repro Checks\n\n\n\n\nLet me know you are interested and provide some background about your paper or project (via email or the form.\nIf possible, share your data and code on a public repository, so that I can access your materials. In case this is not possible (e.g., for privacy sensitive data), we will figure out an alternative arrangement.\nI will try to (computationally)1 reproduce the results. This means I will try to regenerate the outputs including figures and tables of your paper.\nBased on the previous step, I will provide you with a short feedback report including suggestions on how to increase the reproducibility of your findings.\n\n\n\nPlease send me a message via Teams or email (e.klapwijk [at] essb.eur.nl) if you are interested in piloting reproducibility checks at ESSB. You can also fill in the form on the submit your paper page and I will contact you."
+    "text": "How does it work?\nIf you have results from a quantitative analysis that you are about to publish, you can send the data and code to me for an internal review. I will perform a code review to see if your code can run on another machine and if it will produce the same output as on your machine.\n\n\n\n\n\n\nSteps for the ESSB Repro Checks\n\n\n\n\nLet me know you are interested and provide some background about your paper or project (via email or via the form).\nIf possible, share your data and code on a public repository, so that I can access your materials. In case this is not possible (e.g., for privacy sensitive data), we will figure out an alternative arrangement.\nI will try to (computationally)1 reproduce the results. This means I will try to regenerate the outputs including figures and tables of your paper.\nBased on the previous step, I will provide you with a short feedback report including suggestions on how to increase the reproducibility of your findings.\n\n\n\nPlease send me a message via Teams or email (e.klapwijk [at] essb.eur.nl) if you are interested in piloting reproducibility checks at ESSB. You can also fill in the form on the submit your paper page and I will contact you."
   },
   {
     "objectID": "index.html#the-why",
@@ -75,5 +47,33 @@
     "title": "ESSB Repro Checks",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nComputational reproducibility means that rerunning the same analysis on the same data should reproduce the same results↩︎"
+  },
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "Thursday November 28, 2024\nErasmus University Rotterdam\n\nTogether with the CODECHECKing goes NL team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.\nYou can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!).\nCurious to know how it works? Read about the first workshop in Delft.\nMore information to follow on the CODECHECK-NL webpage."
+  },
+  {
+    "objectID": "workshops.html#codecheck-nl-workshop-for-social-and-behavioral-sciences",
+    "href": "workshops.html#codecheck-nl-workshop-for-social-and-behavioral-sciences",
+    "title": "Workshops",
+    "section": "",
+    "text": "Thursday November 28, 2024\nErasmus University Rotterdam\n\nTogether with the CODECHECKing goes NL team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.\nYou can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!).\nCurious to know how it works? Read about the first workshop in Delft.\nMore information to follow on the CODECHECK-NL webpage."
+  },
+  {
+    "objectID": "workshops.html#reproducible-research-through-reusable-code-workshop",
+    "href": "workshops.html#reproducible-research-through-reusable-code-workshop",
+    "title": "Workshops",
+    "section": "Reproducible research through reusable code workshop",
+    "text": "Reproducible research through reusable code workshop\nDecember 3, 2024\nErasmus University Rotterdam\n\nTogether with the eScience Center, we will also host a workshop at ESSB about Reproducible research through reusable code that will help you to learn all about reproducible research in practice! More details will follow soon."
+  },
+  {
+    "objectID": "submit.html",
+    "href": "submit.html",
+    "title": "Submit your paper",
+    "section": "",
+    "text": "Fill in the short form below and I will contact you as soon as possible to discuss how we can arrange the check procedure (such as how I will be able to access your data and code). Looking forward to your submissions!"
   }
 ]
