@@ -13,7 +13,7 @@ If you have results from a quantitative analysis that you are about to publish, 
 ::: callout-note
 ## Steps for the ESSB Repro Checks
 
-1.  Let me know you are interested and provide some background about your paper or project (via email or the [form](submit.qmd).
+1.  Let me know you are interested and provide some background about your paper or project (via email or via the [form](submit.qmd)).
 
 2.  If possible, share your data and code on a public repository, so that I can access your materials. In case this is not possible (e.g., for privacy sensitive data), we will figure out an alternative arrangement.
 
