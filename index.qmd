@@ -34,7 +34,7 @@ Please send me a message via Teams or email (e.klapwijk \[at\] essb.eur.nl) if y
 
 -   Lower the barrier to share your analysis code with others.
 
--   Provide you with feedback to improve your data and code.
+-   Provide you with feedback to improve your data documentation and code.
 
 ## Additional resources
 
@@ -52,8 +52,10 @@ If you want to learn more about (computational) reproducibility, please join one
 
 The ESSB Repro Checks are part of the eScience Fellowship project [Implementing institutional reproducibility checks to promote good computational practices](https://www.esciencecenter.nl/fellowship-programme/eduard-klapwijk/ "https://www.esciencecenter.nl/fellowship-programme/eduard-klapwijk/"){target="_blank"} awarded to Eduard Klapwijk, Research Data Steward at ESSB.
 
-::: {layout-ncol="2"}
-[![Netherlands eScience Center](fig/netherlands-escience-center-logo-RGB-768x211.png){width="207" height="56"}](https://www.esciencecenter.nl/)
+The project is supported by [Sven van den Burg](https://www.esciencecenter.nl/team/sven-van-der-burg/){target="_blank"}, Research Software Engineer at the eScience Center.
 
-[![Erasmus School of Social and Behavioural Sciences](fig/EUR_ESSB_EN%20stack_01_RGB_2400_colour.png){width="176"}](https://www.eur.nl/essb)
+::: {layout-ncol="2"}
+[![Netherlands eScience Center](fig/netherlands-escience-center-logo-RGB-768x211.png){width="207" height="56"}](https://www.esciencecenter.nl/){target="_blank"}
+
+[![Erasmus School of Social and Behavioural Sciences](fig/EUR_ESSB_EN%20stack_01_RGB_2400_colour.png){width="176"}](https://www.eur.nl/essb){target="_blank"}
 :::

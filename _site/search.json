@@ -25,7 +25,7 @@
     "href": "workshops.html#reproducible-research-through-reusable-code-workshop",
     "title": "Workshops",
     "section": "Reproducible research through reusable code workshop",
-    "text": "Reproducible research through reusable code workshop\nDecember 3, 2024\nErasmus University Rotterdam\n\nTogether with the eScience Center, we will also host a workshop at ESSB about Reproducible research through reusable code that will help you to learn all about reproducible research in practice! More details will follow soon."
+    "text": "Reproducible research through reusable code workshop\nDecember 3, 2024\nErasmus University Rotterdam\n\nTogether with the eScience Center, we will also host a workshop at ESSB about Reproducible research through reusable code that will help you to learn all about reproducible research in practice!\nYou can find a preliminary website here, more details will follow soon."
   },
   {
     "objectID": "index.html",
@@ -53,7 +53,7 @@
     "href": "index.html#the-why",
     "title": "ESSB Repro Checks",
     "section": "The why",
-    "text": "The why\nWhy is this important? The repro checks:\n\nEnsure a basic quality level of your results (being computationally reproducible).\nLower the barrier to share your analysis code with others.\nProvide you with feedback to improve your data and code."
+    "text": "The why\nWhy is this important? The repro checks:\n\nEnsure a basic quality level of your results (being computationally reproducible).\nLower the barrier to share your analysis code with others.\nProvide you with feedback to improve your data documentation and code."
   },
   {
     "objectID": "index.html#additional-resources",
@@ -67,7 +67,7 @@
     "href": "index.html#project-background",
     "title": "ESSB Repro Checks",
     "section": "Project background",
-    "text": "Project background\nThe ESSB Repro Checks are part of the eScience Fellowship project Implementing institutional reproducibility checks to promote good computational practices awarded to Eduard Klapwijk, Research Data Steward at ESSB.\n\n\n\n\n\n\n\n\n\nNetherlands eScience Center\n\n\n\n\n\n\n\nErasmus School of Social and Behavioural Sciences"
+    "text": "Project background\nThe ESSB Repro Checks are part of the eScience Fellowship project Implementing institutional reproducibility checks to promote good computational practices awarded to Eduard Klapwijk, Research Data Steward at ESSB.\nThe project is supported by Sven van den Burg, Research Software Engineer at the eScience Center.\n\n\n\n\n\n\n\n\n\nNetherlands eScience Center\n\n\n\n\n\n\n\nErasmus School of Social and Behavioural Sciences"
   },
   {
     "objectID": "index.html#footnotes",

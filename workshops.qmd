@@ -26,4 +26,6 @@ More information to follow on the [CODECHECK-NL](https://codecheck.org.uk/nl/){t
 
 [![](fig/netherlands-escience-center-logo-RGB-768x211.png){width="207" height="56"}](https://www.esciencecenter.nl/){target="_blank"}
 
-Together with the eScience Center, we will also host a workshop at ESSB about ***Reproducible research through reusable code*** that will help you to learn all about reproducible research in practice! More details will follow soon.
+Together with the eScience Center, we will also host a workshop at ESSB about ***Reproducible research through reusable code*** that will help you to learn all about reproducible research in practice!
+
+You can find a [preliminary website here](https://esciencecenter-digital-skills.github.io/2024-12-03-repro-essb/){target="_blank"}, more details will follow soon.
