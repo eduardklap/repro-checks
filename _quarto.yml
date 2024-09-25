@@ -11,7 +11,7 @@ website:
       - workshops.qmd
 
   repo-url: "https://github.com/eduardklap/repro-checks"
-  repo-actions: [edit, issue]
+  repo-actions: [source, issue]
 
 format:
   html:
