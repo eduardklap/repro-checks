@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://eduardklap.github.io/repro-checks/index.html</loc>
-    <lastmod>2024-09-18T13:48:30.989Z</lastmod>
-  </url>
-  <url>
     <loc>https://eduardklap.github.io/repro-checks/workshops.html</loc>
-    <lastmod>2024-09-18T13:48:30.989Z</lastmod>
+    <lastmod>2024-09-25T08:47:37.333Z</lastmod>
   </url>
   <url>
     <loc>https://eduardklap.github.io/repro-checks/submit.html</loc>
-    <lastmod>2024-09-18T13:48:30.989Z</lastmod>
+    <lastmod>2024-09-25T08:47:37.333Z</lastmod>
+  </url>
+  <url>
+    <loc>https://eduardklap.github.io/repro-checks/index.html</loc>
+    <lastmod>2024-09-25T08:47:37.333Z</lastmod>
   </url>
 </urlset>

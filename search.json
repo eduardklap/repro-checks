@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "Thursday November 28, 2024\nErasmus University Rotterdam\n\nTogether with the CODECHECKing goes NL team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.\nYou can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!).\nCurious to know how it works? Read about the first workshop in Delft.\nMore information to follow on the CODECHECK-NL webpage."
+  },
+  {
+    "objectID": "workshops.html#codecheck-nl-workshop-for-social-and-behavioral-sciences",
+    "href": "workshops.html#codecheck-nl-workshop-for-social-and-behavioral-sciences",
+    "title": "Workshops",
+    "section": "",
+    "text": "Thursday November 28, 2024\nErasmus University Rotterdam\n\nTogether with the CODECHECKing goes NL team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.\nYou can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!).\nCurious to know how it works? Read about the first workshop in Delft.\nMore information to follow on the CODECHECK-NL webpage."
+  },
+  {
+    "objectID": "workshops.html#reproducible-research-through-reusable-code-workshop",
+    "href": "workshops.html#reproducible-research-through-reusable-code-workshop",
+    "title": "Workshops",
+    "section": "Reproducible research through reusable code workshop",
+    "text": "Reproducible research through reusable code workshop\nDecember 3, 2024\nErasmus University Rotterdam\n\nTogether with the eScience Center, we will also host a workshop at ESSB about Reproducible research through reusable code that will help you to learn all about reproducible research in practice!\nYou can find a preliminary website here, more details will follow soon."
+  },
+  {
+    "objectID": "submit.html",
+    "href": "submit.html",
+    "title": "Submit your paper",
+    "section": "",
+    "text": "Fill in the short form below and I will contact you as soon as possible to discuss how we can arrange the check procedure (such as how I will be able to access your data and code). Looking forward to your submissions!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ESSB Repro Checks",
@@ -25,7 +53,7 @@
     "href": "index.html#the-why",
     "title": "ESSB Repro Checks",
     "section": "The why",
-    "text": "The why\nWhy is this important? The repro checks:\n\nEnsure a basic quality level of your results (being computationally reproducible).\nLower the barrier to share your analysis code with others.\nProvide you with feedback to improve your data and code."
+    "text": "The why\nWhy is this important? The repro checks:\n\nEnsure a basic quality level of your results (being computationally reproducible).\nLower the barrier to share your analysis code with others.\nProvide you with feedback to improve your data documentation and code."
   },
   {
     "objectID": "index.html#additional-resources",
@@ -39,7 +67,7 @@
     "href": "index.html#project-background",
     "title": "ESSB Repro Checks",
     "section": "Project background",
-    "text": "Project background\nThe ESSB Repro Checks are part of the eScience Fellowship project Implementing institutional reproducibility checks to promote good computational practices awarded to Eduard Klapwijk, Research Data Steward at ESSB.\n\n\n\n\n\n\n\n\n\nNetherlands eScience Center\n\n\n\n\n\n\n\nErasmus School of Social and Behavioural Sciences"
+    "text": "Project background\nThe ESSB Repro Checks are part of the eScience Fellowship project Implementing institutional reproducibility checks to promote good computational practices awarded to Eduard Klapwijk, Research Data Steward at ESSB.\nThe project is supported by Sven van den Burg, Research Software Engineer at the eScience Center.\n\n\n\n\n\n\n\n\n\nNetherlands eScience Center\n\n\n\n\n\n\n\nErasmus School of Social and Behavioural Sciences"
   },
   {
     "objectID": "index.html#footnotes",
@@ -47,33 +75,5 @@
     "title": "ESSB Repro Checks",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nComputational reproducibility means that rerunning the same analysis on the same data should reproduce the same results↩︎"
-  },
-  {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "Workshops",
-    "section": "",
-    "text": "Thursday November 28, 2024\nErasmus University Rotterdam\n\nTogether with the CODECHECKing goes NL team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.\nYou can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!).\nCurious to know how it works? Read about the first workshop in Delft.\nMore information to follow on the CODECHECK-NL webpage."
-  },
-  {
-    "objectID": "workshops.html#codecheck-nl-workshop-for-social-and-behavioral-sciences",
-    "href": "workshops.html#codecheck-nl-workshop-for-social-and-behavioral-sciences",
-    "title": "Workshops",
-    "section": "",
-    "text": "Thursday November 28, 2024\nErasmus University Rotterdam\n\nTogether with the CODECHECKing goes NL team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university who would like their papers or projects to be “codechecked” during a live, one-day code-checking workshop on 28 November 2024.\nYou can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!).\nCurious to know how it works? Read about the first workshop in Delft.\nMore information to follow on the CODECHECK-NL webpage."
-  },
-  {
-    "objectID": "workshops.html#reproducible-research-through-reusable-code-workshop",
-    "href": "workshops.html#reproducible-research-through-reusable-code-workshop",
-    "title": "Workshops",
-    "section": "Reproducible research through reusable code workshop",
-    "text": "Reproducible research through reusable code workshop\nDecember 3, 2024\nErasmus University Rotterdam\n\nTogether with the eScience Center, we will also host a workshop at ESSB about Reproducible research through reusable code that will help you to learn all about reproducible research in practice! More details will follow soon."
-  },
-  {
-    "objectID": "submit.html",
-    "href": "submit.html",
-    "title": "Submit your paper",
-    "section": "",
-    "text": "Fill in the short form below and I will contact you as soon as possible to discuss how we can arrange the check procedure (such as how I will be able to access your data and code). Looking forward to your submissions!"
   }
 ]
