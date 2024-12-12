@@ -10,11 +10,11 @@ title: "Workshops"
 
 [![](fig/codecheck_logo.png){width="207"}](https://codecheck.org.uk/){target="_blank"}
 
-Together with the [CODECHECKing goes NL](https://www.nwo.nl/projecten/osf232063){target="_blank"} team, we will host a CODECHECK workshop at Erasmus University Rotterdam. For this workshop, we are looking for researchers from the field of social and behavioral sciences based at a Dutch knowledge institution or university **who would like their papers or projects to be “codechecked”** during a live, one-day code-checking workshop on 28 November 2024.
+Together with the [CODECHECKing goes NL](https://www.nwo.nl/projecten/osf232063){target="_blank"} team, we hosted a CODECHECK workshop at Erasmus University Rotterdam. 
 
-The **call for papers is now open** on the [CODECHECK-NL](https://codecheck.org.uk/nl-workshop3/){target="_blank"} webpage! 
+During this workshop, three authors got their code successfully checked by the other workshop partipants! The certificates can be found on Zenodo: one for a  [paper about accuracy of heart rate wearables](https://doi.org/10.5281/zenodo.14279041), one for a [paper about the use of wearables in a nursing home ](https://doi.org/10.5281/zenodo.14261193), and one for a [paper about calls for police services](https://doi.org/10.5281/zenodo.14278912).
 
-You can participate as a codechecker (i.e., a person reviewing code), or by submitting your own work to be checked (or both if you are up for it!). Note that PhD students at the Erasmus Graduate School for Social Sciences and the Humanities are eligible for [1.5 ECTS credit for participating in the workshop](https://www.eur.nl/en/egsh/course/code-check-your-research){target="_blank"}!
+More information about this specific workshop can be found on the [CODECHECK-NL](https://codecheck.org.uk/nl-workshop3/){target="_blank"} webpage! 
 
 *Curious to know how it works? Read about the first [workshop in Delft](https://codecheck.org.uk/nl-workshop1/){target="_blank"}.*
 
@@ -24,12 +24,14 @@ You can participate as a codechecker (i.e., a person reviewing code), or by subm
 
 **Erasmus University Rotterdam**
 
-Together with the [eScience Center](https://www.esciencecenter.nl/){target="_blank"}, we will also host a workshop at ESSB about ***Reproducible research through reusable code*** that will help you to learn all about reproducible research in practice!
+Together with the [eScience Center](https://www.esciencecenter.nl/){target="_blank"}, we also hosted a successful hackathon-style workshop at ESSB about ***Reproducible research through reusable code***. 
 
-**----REGISTRATION IS NOW OPEN!----** 
-You can find a [website here](https://esciencecenter-digital-skills.github.io/2024-12-03-repro-essb/){target="_blank"} with a preliminary workshop program and the option to register.
-PhD students at the Erasmus Graduate School for Social Sciences and the Humanities are eligible for [1.5 ECTS credit for participating in the workshop](https://www.eur.nl/en/egsh/course/reproducible-research-through-reusable-code){target="_blank"}!
+We welcomed 16 participants, who worked on publishing and improving their own project in a day. At the end of the day, they had their code published on GitHub, with a README included, with explicitly documented software dependencies, and more improvements that made their code more reproducible and reusable. But most of all, we had fruitful exchanges about how to work more reproducible, and everyone went home with more tools in their toolbox to do so.   
 
-See also the flyer below:
+The course materials are available at the [workshop website](https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/){target="_blank"}: in case you are interested you can complete all the exercises yourself! 
 
-![](fig/flyer_reproducible-research-workshop.jpg){width=550}
+We are planning **another edition of the workshop** in early 2025, stay tuned for the announcement!
+
+![Impression of the Reproducible research through reusable code workshop, 3 December 2024](fig/reusable-code_impression_20241203.jpg){width=550}
+
+![Reproducible research through reusable code workshop flyer](fig/flyer_reproducible-research-workshop.jpg){width=550}
