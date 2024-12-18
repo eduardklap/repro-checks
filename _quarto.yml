@@ -17,6 +17,8 @@ website:
 format:
   html:
     theme: simplex
+    fontsize: 1.1em
+    linestretch: 1.7
     css: styles.css
     toc: true
 
