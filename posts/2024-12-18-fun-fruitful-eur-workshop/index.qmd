@@ -1,0 +1,39 @@
+---
+title: "Fun and fruitful: A successful workshop at Erasmus University Rotterdam!"
+description: "On 28 November 2024, the CHECK-NL workshop for social and behavioural sciences took place at Erasmus University Rotterdam."
+author:
+  - name:   
+      given: Saba
+      family: Sharma
+    orcid: 0000-0002-8695-5902
+    affiliation: Delft University of Technology
+    affiliation-url: https://www.tudelft.nl/
+
+date: 2024-12-18
+categories: [reproducibility, research software, training, codecheck, workshop] 
+citation: 
+  url: https://codecheck.org.uk/nl/workshop3.html
+image: eur-codecheck.jpg
+draft: false
+---
+
+This blogpost appeared originally on the [CODECHECK website](https://codecheck.org.uk/nl/workshop3.html){target="_blank"}.
+
+![Photo credit: [CHECK-NL](https://codecheck.org.uk/nl/workshop3.html){target="_blank"}](eur-codecheck.jpg){width=550}
+
+Our third CHECK-NL workshop on the social and behavioural sciences at Erasmus University Rotterdam was an engaging, supportive community event, made even better by our gracious host at EUR, Eduard Klapwijk, who kept us well fed, watered and caffeinated through the day, in addition to being active in the sessions as well.
+
+The day began with an introduction from Stephen Eglen (co-founder CODECHECK), taking us through the concepts and steps of codecheck, and leading us through a live demo of a codecheck he had begun the previous evening on the train from London, which he successfully completed. 
+Shortly thereafter, the three authors who had submitted their work to be codechecked briefly introduced their projects, and participants divided themselves up into three breakout groups, with two groups working with R and one with Python. 
+All three groups completed successful codechecks, and also made some headway writing the certificates of executable computations. 
+Have a look at the [CODECHECK Register](https://codecheck.org.uk/register/venues/communities/codecheck_nl/){target="_blank"} to see the newly published certificates from our workshop!
+
+The reflection session is always a lively and engaging way to wrap up to the workshop, and this one did not disappoint. 
+The breakout groups recapped their experiences of codechecking, and authors reflected on how codechecking often helps them re-evaluate their own assumptions. 
+Other reflections focussed on the challenges of performing codechecks with sensitive or confidential data, a situation that many in our audience were all too familiar with, being from the social and behavioural sciences.
+Incentivising and growing the codechecking community is always an interesting part of the reflection, and answers ranged from monetary compensation and making it a job, to fame and glory (if only!).
+
+We ended the session with a well-deserved borrel, a satisfying end to a productive day! 
+Would you also like to be rewarded with bitterballen after a day of coding? 
+Join our next workshop on 14 February at Leiden University! 
+Find out more on the [workshop page](https://codecheck.org.uk/nl/workshop4){target="_blank"}.

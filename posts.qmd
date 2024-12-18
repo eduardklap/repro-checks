@@ -1,0 +1,10 @@
+---
+title: "Posts"
+listing: 
+  contents: posts 
+  type: grid 
+  sort: "date desc" 
+  categories: true
+---
+
+My (and collaborator's) posts about reproducibility. I plan to irregurlarly post some of my ramblings here.

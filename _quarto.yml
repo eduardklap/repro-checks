@@ -8,6 +8,7 @@ website:
       - href: index.qmd
         text: Home
       - submit.qmd
+      - posts.qmd
       - workshops.qmd
 
   repo-url: "https://github.com/eduardklap/repro-checks"

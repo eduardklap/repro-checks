@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Submit your paper – ESSB Repro Checks</title>
+<title>Posts – ESSB Repro Checks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -93,11 +153,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./submit.html" aria-current="page"> 
+    <a class="nav-link" href="./submit.html"> 
 <span class="menu-text">Submit your paper</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
@@ -115,15 +175,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="benefits">benefits <span class="quarto-category-count">(1)</span></div><div class="category" data-category="codecheck">codecheck <span class="quarto-category-count">(1)</span></div><div class="category" data-category="reproducibility">reproducibility <span class="quarto-category-count">(2)</span></div><div class="category" data-category="research software">research software <span class="quarto-category-count">(2)</span></div><div class="category" data-category="training">training <span class="quarto-category-count">(2)</span></div><div class="category" data-category="workshop">workshop <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Submit your paper</h1>
+<h1 class="title">Posts</h1>
 </div>
 
 
@@ -140,13 +200,99 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Fill in the short form below and I will contact you as soon as possible to discuss how we can arrange the check procedure (such as how I will be able to access your data and code). Looking forward to your submissions!</p>
-<iframe width="800px" height="1600px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=1gJZcT72jUuSm0uxcLrUkr-Fzp-Cq5xPmRLI2ihJ-rZURThBVzdPUFZZWUNKUDJIWlZXTTcwTjA2Qi4u&amp;embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" msallowfullscreen="">
-</iframe>
+<p>My (and collaborator’s) posts about reproducibility. I plan to irregurlarly post some of my ramblings here.</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="reproducibility,research software,training,codecheck,workshop" data-listing-date-sort="1734476400000" data-listing-file-modified-sort="1734515968462" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="324">
+<a href="./posts/2024-12-18-fun-fruitful-eur-workshop/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-12-18-fun-fruitful-eur-workshop/eur-codecheck.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fun and fruitful: A successful workshop at Erasmus University Rotterdam!
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('reproducibility'); return false;">
+reproducibility
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('research software'); return false;">
+research software
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('training'); return false;">
+training
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('codecheck'); return false;">
+codecheck
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('workshop'); return false;">
+workshop
+</div>
+</div>
+<div class="card-text listing-description">
+On 28 November 2024, the CHECK-NL workshop for social and behavioural sciences took place at Erasmus University Rotterdam.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Saba Sharma
+</div>
+<div class="listing-date">
+Dec 18, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="reproducibility,research software,training,benefits" data-listing-date-sort="1727128800000" data-listing-file-modified-sort="1734514726894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1198">
+<a href="./posts/2024-09-24-why-care-reproducible-code/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-09-24-why-care-reproducible-code/reproducibility.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Why should you care about reproducible code — and how to get started?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('reproducibility'); return false;">
+reproducibility
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('research software'); return false;">
+research software
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('training'); return false;">
+training
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('benefits'); return false;">
+benefits
+</div>
+</div>
+<div class="card-text listing-description">
+On 23 April 2024, the first <span>National Research Software Day</span> took place in Hilversum, the…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Diana I. Bocancea, Daniela Gawehns, Julian Lopez Gordillo, Sam Langton, Katinka Rus, Sally Hogenboom, Iris Spruit, Eduard T. Klapwijk
+</div>
+<div class="listing-date">
+Sep 24, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -572,4 +718,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/eduardklap/repro-checks/blob/main/submit.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/eduardklap/repro-checks/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/eduardklap/repro-checks/blob/main/posts.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/eduardklap/repro-checks/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
