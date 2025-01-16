@@ -29,7 +29,7 @@ I submitted my work to the [CODECHECK](https://codecheck.org.uk/) [@nüst2021] c
 
 A codecheck was the perfect opportunity for checking how reproducible our project was. At the same time, the experience of getting my own work codechecked would help in understanding a researcher’s perspective on the process. In this post, I will share my personal experience of getting codechecked. This will hopefully demystify the process for any reader new to codechecking or curious about what codecheck is all about.
 
-![Image: The [CODECHECK](https://codecheck.org.uk/process/#figure-2-the-codecheck-example-process-implementation){target="_blank"} example workflow implementation.](codecheck_overview.png){width="550"}
+![Image: The [CODECHECK](https://codecheck.org.uk/process/#figure-2-the-codecheck-example-process-implementation){target="_blank"} example workflow implementation.](codecheck_overview.svg){width="550"}
 
 ## The project: neuroUp
 
