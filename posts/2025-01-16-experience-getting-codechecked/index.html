@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Saba Sharma">
-<meta name="dcterms.date" content="2024-12-18">
-<meta name="description" content="On 28 November 2024, the CHECK-NL workshop for social and behavioural sciences took place at Erasmus University Rotterdam.">
+<meta name="author" content="Eduard T. Klapwijk">
+<meta name="dcterms.date" content="2025-01-16">
+<meta name="description" content="Because I am setting up a codecheck workflow to check the reproducibility of research results for researchers at my institute, I was eager to submit my own work to the test. How reproducible would our work be when submitted to an external test?">
 
-<title>Fun and fruitful: A successful workshop at Erasmus University Rotterdam! – ESSB Repro Checks</title>
+<title>My experience of getting codechecked – ESSB Repro Checks</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -118,18 +138,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Fun and fruitful: A successful workshop at Erasmus University Rotterdam!</h1>
+      <h1 class="title">My experience of getting codechecked</h1>
                   <div>
         <div class="description">
-          On 28 November 2024, the CHECK-NL workshop for social and behavioural sciences took place at Erasmus University Rotterdam.
+          Because I am setting up a codecheck workflow to check the reproducibility of research results for researchers at my institute, I was eager to submit my own work to the test. How reproducible would our work be when submitted to an external test?
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">reproducibility</div>
                 <div class="quarto-category">research software</div>
-                <div class="quarto-category">training</div>
                 <div class="quarto-category">codecheck</div>
-                <div class="quarto-category">workshop</div>
               </div>
                   </div>
   </div>
@@ -139,12 +157,12 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title-meta-heading">Affiliation</div>
     
       <div class="quarto-title-meta-contents">
-      <p class="author">Saba Sharma <a href="https://orcid.org/0000-0002-8695-5902" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+      <p class="author">Eduard T. Klapwijk <a href="https://orcid.org/0000-0002-8936-0365" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
     </div>
     <div class="quarto-title-meta-contents">
           <p class="affiliation">
-              <a href="https://www.tudelft.nl/">
-              Delft University of Technology
+              <a href="https://www.eur.nl">
+              Erasmus University Rotterdam
               </a>
             </p>
         </div>
@@ -156,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">December 18, 2024</p>
+        <p class="date">January 16, 2025</p>
       </div>
     </div>
     
@@ -167,8 +185,20 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a-check-for-reproducibility" id="toc-a-check-for-reproducibility" class="nav-link active" data-scroll-target="#a-check-for-reproducibility">A check for reproducibility</a></li>
+  <li><a href="#the-project-neuroup" id="toc-the-project-neuroup" class="nav-link" data-scroll-target="#the-project-neuroup">The project: neuroUp</a></li>
+  <li><a href="#submitting-work-to-be-codechecked" id="toc-submitting-work-to-be-codechecked" class="nav-link" data-scroll-target="#submitting-work-to-be-codechecked">Submitting work to be codechecked</a></li>
+  <li><a href="#getting-the-results-of-the-check" id="toc-getting-the-results-of-the-check" class="nav-link" data-scroll-target="#getting-the-results-of-the-check">Getting the results of the check</a></li>
+  <li><a href="#final-reflections" id="toc-final-reflections" class="nav-link" data-scroll-target="#final-reflections">Final reflections</a></li>
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/eduardklap/repro-checks/blob/main/posts/2025-01-16-experience-getting-codechecked/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/eduardklap/repro-checks/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -177,31 +207,103 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This blogpost appeared originally on the <a href="https://codecheck.org.uk/nl/workshop3.html" target="_blank">CODECHECK website</a>.</p>
+<p><a href="https://doi.org/10.5281/zenodo.14651307" data-align="left"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.14651307.svg" class="img-fluid"></a></p>
+<p>This year I was finalizing and publishing one of my own research projects. My coauthors and I took many steps to make the project as reproducible as possible.</p>
+<p>Because I am setting up a codecheck workflow to check the reproducibility of research results for researchers at my institute, I was eager to submit my own work to the test. How reproducible would our work be when submitted to an external test?</p>
+<section id="a-check-for-reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="a-check-for-reproducibility">A check for reproducibility</h2>
+<p>I submitted my work to the <a href="https://codecheck.org.uk/">CODECHECK</a> <span class="citation" data-cites="nüst2021">(<a href="#ref-nüst2021" role="doc-biblioref">Nüst and Eglen 2021</a>)</span> community workflow, which means that an external codechecker will do a light-weight reproducibility check. They will try to re-run my code to see if results reported in the paper can be reproduced.</p>
+<p>A codecheck was the perfect opportunity for checking how reproducible our project was. At the same time, the experience of getting my own work codechecked would help in understanding a researcher’s perspective on the process. In this post, I will share my personal experience of getting codechecked. This will hopefully demystify the process for any reader new to codechecking or curious about what codecheck is all about.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="eur-codecheck.jpg" class="img-fluid figure-img" width="550"></p>
-<figcaption>Photo credit: <a href="https://codecheck.org.uk/nl/workshop3.html" target="_blank">CHECK-NL</a></figcaption>
+<p><img src="codecheck_overview.png" class="img-fluid figure-img" width="550"></p>
+<figcaption>Image: The <a href="https://codecheck.org.uk/process/#figure-2-the-codecheck-example-process-implementation" target="_blank">CODECHECK</a> example workflow implementation.</figcaption>
 </figure>
 </div>
-<p>Our third CHECK-NL workshop on the social and behavioural sciences at Erasmus University Rotterdam was an engaging, supportive community event, made even better by our gracious host at EUR, Eduard Klapwijk, who kept us well fed, watered and caffeinated through the day, in addition to being active in the sessions as well.</p>
-<p>The day began with an introduction from Stephen Eglen (co-founder CODECHECK), taking us through the concepts and steps of codecheck, and leading us through a live demo of a codecheck he had begun the previous evening on the train from London, which he successfully completed. Shortly thereafter, the three authors who had submitted their work to be codechecked briefly introduced their projects, and participants divided themselves up into three breakout groups, with two groups working with R and one with Python. All three groups completed successful codechecks, and also made some headway writing the certificates of executable computations. Have a look at the <a href="https://codecheck.org.uk/register/venues/communities/codecheck_nl/" target="_blank">CODECHECK Register</a> to see the newly published certificates from our workshop!</p>
-<p>The reflection session is always a lively and engaging way to wrap up to the workshop, and this one did not disappoint. The breakout groups recapped their experiences of codechecking, and authors reflected on how codechecking often helps them re-evaluate their own assumptions. Other reflections focussed on the challenges of performing codechecks with sensitive or confidential data, a situation that many in our audience were all too familiar with, being from the social and behavioural sciences. Incentivising and growing the codechecking community is always an interesting part of the reflection, and answers ranged from monetary compensation and making it a job, to fame and glory (if only!).</p>
-<p>We ended the session with a well-deserved borrel, a satisfying end to a productive day! Would you also like to be rewarded with bitterballen after a day of coding? Join our next workshop on 14 February at Leiden University! Find out more on the <a href="https://codecheck.org.uk/nl/workshop4" target="_blank">workshop page</a>.</p>
+</section>
+<section id="the-project-neuroup" class="level2">
+<h2 class="anchored" data-anchor-id="the-project-neuroup">The project: neuroUp</h2>
+<p>The project submitted for the codecheck was in the making for about four years - a nice example of Slow Science<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. From the start of these four years, I tried to make all our scripts reproducible.</p>
+<p>A few years ago, we started out with a couple of unconnected R scripts. Only when I started drafting the research article, I combined the draft manuscript with the project’s code and computations in one place. I first used <a href="https://rmarkdown.rstudio.com/">R Markdown</a> for this, and in the end of 2023 I switched to a similar tool now available in RStudio called <a href="https://quarto.org/">Quarto</a>. On top of this, a key tool for reproducibility was the use of <a href="https://git-scm.com/">Git</a> and <a href="https://github.com/">GitHub</a> for version control. This helped to systematically track the evolution of the project and its code and allowed us to go back to a previous state of the code if needed.</p>
+<p>An important phase in the project was the step from working with loosely connected R scripts to the development of an R package (we called it <a href="https://eduardklap.github.io/neuroUp/">neuroUp</a>). With the help of the fantastic <a href="https://r-pkgs.org/">R packages</a> book by Hadley Wickham and Jennifer Bryan, I managed to develop my first R package out of the code for this paper. Although after having done this, I believe that for most research projects developing a custom software package is an overkill, organizing code in a package does provide a lot of benefits that make your code much more reproducible. It organizes your project according to a convention, specifies dependencies, and bundles data, code, and documentation <span class="citation" data-cites="marwick2018">(<a href="#ref-marwick2018" role="doc-biblioref">Marwick, Boettiger, and Mullen 2018</a>)</span>. This means other researchers can install, cite and use the package without having to understand exactly how your code works.</p>
+<p>When we posted <a href="https://doi.org/10.31234/osf.io/cz32t">the preprint for our paper</a>, we also published a <a href="https://eduardklap.github.io/sample-size-fmri/">reproducible version of the manuscript</a> online. That was the moment that we turned to the CODECHECK community workflow to check whether results were indeed reproducible, at least according to one independent codechecker who was not part of the research team.</p>
+</section>
+<section id="submitting-work-to-be-codechecked" class="level2">
+<h2 class="anchored" data-anchor-id="submitting-work-to-be-codechecked">Submitting work to be codechecked</h2>
+<p>I chose CODECHECK because they offer a journal-independent community workflow. To be honest, submitting the work was daunting at first. I hesitated because based on the <a href="https://codecheck.org.uk/guide/community-workflow-author#2-requirements">instructions for authors</a>, I thought I had to partly restructure my project and provide a new README and metadata file. Luckily, looking at some of the forked repositories in the <a href="https://github.com/orgs/codecheckers/repositories">codecheckers GitHub organization</a> really helped. That made me realize that some were much more detailed than others and that I could suffice with just describing the files in the repository and instructions on how to run the code (I liked <a href="https://github.com/codecheckers/mb11CalculusPilot">this example</a> by Bjørn Bartholdy and based my README on it).</p>
+<p>After the preparations, the procedure was straightforward. Using my GitHub account, I opened an issue on the codecheckers GitHub, which is made easy using their <a href="https://github.com/codecheckers/register/issues/new/choose">template issue</a>. The only thing that confused me a little was the instruction to “link to the repository in the codecheckers organisation with the code”. Once I figured that I could also link to my own public repository that would be forked by the codechecker in the process, my project was ready to go!</p>
+<p>After I submitted my repository for the check, the team reached out to me with some follow-up questions (the conversation is still accessible via <a href="https://github.com/codecheckers/register/issues/100">this closed GitHub issue</a>). The codechecker was even accomodating to get the check done before my revision deadline, so that I could reference the CODECHECK certificate in my published paper.</p>
+</section>
+<section id="getting-the-results-of-the-check" class="level2">
+<h2 class="anchored" data-anchor-id="getting-the-results-of-the-check">Getting the results of the check</h2>
+<p>After a short waiting time, I got notified with some good news: the checker was able to reproduce my work and we got a certificate <span class="citation" data-cites="röseler2024">(see <a href="#ref-röseler2024" role="doc-biblioref">Röseler 2024</a>)</span>! Of course, I was very happy. This meant that at least one other person at another moment in time was able to reproduce our work with the help of our data and code.</p>
+<p>But, as I also experienced when I later code-checked someone else’s work <span class="citation" data-cites="joeytang2024">(<a href="#ref-joeytang2024" role="doc-biblioref">Joey Tang et al. 2024</a>)</span>, when everything is working smoothly (eventually maybe after debugging some dependencies), the whole process is not overly exciting. The machine is doing most of the work in that case, you just see a bunch of identical images or tables appearing on your screen.</p>
+<p>The kind of reproducibility that is checked (computational or methods reproducibility) is in the end actually quite basic. What is being checked is nothing more than a minimum but necessary condition of good and believable research: what is verified is whether the results can be independently re-run using the same data and code. Other relating concepts for reliable and trustworthy research results such as replicability, generalizibility, and robustness, may be more exciting, but require also much more effort or even new studies to check.</p>
+</section>
+<section id="final-reflections" class="level2">
+<h2 class="anchored" data-anchor-id="final-reflections">Final reflections</h2>
+<p>As with most things in life, preparing for the codecheck (by making sure your work is reproducible) is most of the work. Here are some key points to consider <span class="citation" data-cites="sandve2013">(see also these ten simple rules for reproducible research: <a href="#ref-sandve2013" role="doc-biblioref">Sandve et al. 2013</a>)</span>:</p>
+<ul>
+<li><p>Record all the steps taken to process and analyze your data in scripts and avoid manual steps that are harder to reproduce.</p></li>
+<li><p>Documenting your code is key. Explain what steps are needed to reproduce the results<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p></li>
+<li><p>Make sure you systematically list all dependencies (software and packages).</p></li>
+<li><p>Use tools for version control.</p></li>
+<li><p>Use tools like <a href="https://quarto.org/">Quarto</a>, <a href="https://rmarkdown.rstudio.com/">R markdown</a>, or <a href="https://jupyter.org/">Jupyter notebooks</a>. They provide a great way to share code, narrative text, and output in one document, making it much easier to clearly describe the steps that were taken to process and analyse the data.</p></li>
+<li><p>Partial reproducibility is always better than zero reproducibility! Don’t let the perfect be the enemy of the good.</p></li>
+</ul>
+<p>In conclusion, getting our research codechecked was a very nice experience. With just a few extra steps (providing a short metadata file, adapting our README, requesting the check), we managed to obtain a nice certificate confirming that the computations underlying our article could be independently executed. I believe this additional check - next to traditional peer review - gives a nice extra boost to the credibility of our work. We therefore happily cited the CODECHECK certificate in our paper that got published recently <span class="citation" data-cites="klapwijk2025">(see <a href="#ref-klapwijk2025" role="doc-biblioref">Klapwijk et al. 2025</a>)</span>.</p>
+<p>Did you work hard to make your research reproducible? Then definitely have it codechecked!</p>
+</section>
+<section id="acknowledgments" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
+<p>I would like to thank Lieke de Boer for excellent feedback on a draft version of this post.</p>
+</section>
+<section id="references" class="level2">
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{sharma2024,
-  author = {Sharma, Saba},
-  title = {Fun and Fruitful: {A} Successful Workshop at {Erasmus}
-    {University} {Rotterdam!}},
-  date = {2024-12-18},
-  url = {https://codecheck.org.uk/nl/workshop3.html},
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-frith2020" class="csl-entry" role="listitem">
+Frith, Uta. 2020. <span>“Fast Lane to Slow Science.”</span> <em>Trends in Cognitive Sciences</em> 24 (1): 1–2. <a href="https://doi.org/10.1016/j.tics.2019.10.007">https://doi.org/10.1016/j.tics.2019.10.007</a>.
+</div>
+<div id="ref-joeytang2024" class="csl-entry" role="listitem">
+Joey Tang, Max Reichert, Flora Zhou, and Eduard Klapwijk. 2024. <span>“CODECHECK Certificate 2024-020,”</span> November. <a href="https://doi.org/10.5281/ZENODO.14278912">https://doi.org/10.5281/ZENODO.14278912</a>.
+</div>
+<div id="ref-klapwijk2025" class="csl-entry" role="listitem">
+Klapwijk, Eduard T., Joran Jongerling, Herbert Hoijtink, and Eveline A. Crone. 2025. <span>“Sample Size Estimation for Task-Related Functional MRI Studies Using Bayesian Updating.”</span> <em>Developmental Cognitive Neuroscience</em> 71 (January): 101489. <a href="https://doi.org/10.1016/j.dcn.2024.101489">https://doi.org/10.1016/j.dcn.2024.101489</a>.
+</div>
+<div id="ref-marwick2018" class="csl-entry" role="listitem">
+Marwick, Ben, Carl Boettiger, and Lincoln Mullen. 2018. <span>“Packaging Data Analytical Work Reproducibly Using R (and Friends).”</span> <em>The American Statistician</em> 72 (1): 80–88. <a href="https://doi.org/10.1080/00031305.2017.1375986">https://doi.org/10.1080/00031305.2017.1375986</a>.
+</div>
+<div id="ref-nüst2021" class="csl-entry" role="listitem">
+Nüst, Daniel, and Stephen J. Eglen. 2021. <span>“CODECHECK: An Open Science Initiative for the Independent Execution of Computations Underlying Research Articles During Peer Review to Improve Reproducibility.”</span> <a href="https://doi.org/10.12688/f1000research.51738.2">https://doi.org/10.12688/f1000research.51738.2</a>.
+</div>
+<div id="ref-röseler2024" class="csl-entry" role="listitem">
+Röseler, Lukas. 2024. <span>“CODECHECK certificate 2024-005,”</span> October. <a href="https://doi.org/10.5281/zenodo.13945051">https://doi.org/10.5281/zenodo.13945051</a>.
+</div>
+<div id="ref-sandve2013" class="csl-entry" role="listitem">
+Sandve, Geir Kjetil, Anton Nekrutenko, James Taylor, and Eivind Hovig. 2013. <span>“Ten Simple Rules for Reproducible Computational Research.”</span> <em>PLOS Computational Biology</em> 9 (10): e1003285. <a href="https://doi.org/10.1371/journal.pcbi.1003285">https://doi.org/10.1371/journal.pcbi.1003285</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>To make me feel better about the slow pace of this project, I like to keep Uta Frith’s analogy in mind of Slow Science being equivalent to the production of quality Grand Cru wines <span class="citation" data-cites="frith2020">(<a href="#ref-frith2020" role="doc-biblioref">Frith 2020</a>)</span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>For an example description, see the README we wrote for the codecheck of this project: <a href="https://github.com/codecheckers/sample-size-codecheck/" class="uri">https://github.com/codecheckers/sample-size-codecheck/</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{klapwijk2025,
+  author = {Klapwijk, Eduard T.},
+  title = {My Experience of Getting Codechecked},
+  date = {2025-01-16},
+  url = {https://doi.org/10.5281/zenodo.14651307},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-sharma2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Sharma, Saba. 2024. <span>“Fun and Fruitful: A Successful Workshop at
-Erasmus University Rotterdam!”</span> December 18, 2024. <a href="https://codecheck.org.uk/nl/workshop3.html">https://codecheck.org.uk/nl/workshop3.html</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-klapwijk2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Klapwijk, Eduard T. 2025. <span>“My Experience of Getting
+Codechecked.”</span> January 16, 2025. <a href="https://doi.org/10.5281/zenodo.14651307">https://doi.org/10.5281/zenodo.14651307</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -625,4 +727,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/eduardklap/repro-checks/blob/main/posts/2024-12-18-fun-fruitful-eur-workshop/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/eduardklap/repro-checks/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/eduardklap/repro-checks/blob/main/posts/2025-01-16-experience-getting-codechecked/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/eduardklap/repro-checks/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
