@@ -2,6 +2,27 @@
 title: "Workshops"
 ---
 
+## *Reproducible research through reusable code* workshop
+
+**April 3, 2025**
+
+**Erasmus University Rotterdam**
+
+Together with the [eScience Center](https://www.esciencecenter.nl/){target="_blank"}, we will host another hackathon-style workshop at ESSB about ***Reproducible research through reusable code***. This workshop will help you to learn all about reproducible research in practice!  
+
+**--REGISTRATION IS NOW OPEN!--** 
+
+You can find a [website here](https://esciencecenter-digital-skills.github.io/2025-04-03-repro-essb/){target="_blank"} with a workshop program and the option to register. PhD students at the Erasmus Graduate School for Social Sciences and the Humanities are eligible for [1.5 ECTS credit for participating in the workshop](https://www.eur.nl/en/egsh/course/reproducible-research-through-reusable-code){target="_blank"}!
+
+![Reproducible research through reusable code workshop flyer](fig/flyer-repro-research-workshop-April2025.jpg){width=550}
+
+#### Short recap of the first edition of the workshop
+On 3 December 2024, we welcomed 16 participants, who worked on publishing and improving their own project in a day. At the end of the day, they had their code published on GitHub, with a README included, with explicitly documented software dependencies, and more improvements that made their code more reproducible and reusable. But most of all, we had fruitful exchanges about how to work more reproducible, and everyone went home with more tools in their toolbox to do so.   
+
+The course materials are available at the [workshop website](https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/){target="_blank"}: in case you are interested you can complete all the exercises yourself! 
+
+![Impression of the Reproducible research through reusable code workshop, 3 December 2024](fig/reusable-code_impression_20241203.jpg){width=550}
+
 ## *CODECHECK-NL* workshop for Social and Behavioral Sciences
 
 **Thursday November 28, 2024**
@@ -17,21 +38,3 @@ During this workshop, three authors got their code successfully checked by the o
 More information about this specific workshop can be found on the [CODECHECK-NL](https://codecheck.org.uk/nl-workshop3/){target="_blank"} webpage! 
 
 *Curious to know how it works? Read about the first [workshop in Delft](https://codecheck.org.uk/nl-workshop1/){target="_blank"}.*
-
-## *Reproducible research through reusable code* workshop
-
-**December 3, 2024**
-
-**Erasmus University Rotterdam**
-
-Together with the [eScience Center](https://www.esciencecenter.nl/){target="_blank"}, we also hosted a successful hackathon-style workshop at ESSB about ***Reproducible research through reusable code***. 
-
-We welcomed 16 participants, who worked on publishing and improving their own project in a day. At the end of the day, they had their code published on GitHub, with a README included, with explicitly documented software dependencies, and more improvements that made their code more reproducible and reusable. But most of all, we had fruitful exchanges about how to work more reproducible, and everyone went home with more tools in their toolbox to do so.   
-
-The course materials are available at the [workshop website](https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/){target="_blank"}: in case you are interested you can complete all the exercises yourself! 
-
-We are planning **another edition of the workshop** in early 2025, stay tuned for the announcement!
-
-![Impression of the Reproducible research through reusable code workshop, 3 December 2024](fig/reusable-code_impression_20241203.jpg){width=550}
-
-![Reproducible research through reusable code workshop flyer](fig/flyer_reproducible-research-workshop.jpg){width=550}
