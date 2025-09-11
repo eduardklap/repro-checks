@@ -19,7 +19,7 @@ You can find a [website here](https://esciencecenter-digital-skills.github.io/20
 #### Short recap of the first edition of the workshop
 On 3 December 2024, we welcomed 16 participants, who worked on publishing and improving their own project in a day. At the end of the day, they had their code published on GitHub, with a README included, with explicitly documented software dependencies, and more improvements that made their code more reproducible and reusable. But most of all, we had fruitful exchanges about how to work more reproducible, and everyone went home with more tools in their toolbox to do so.   
 
-The course materials are available at the [workshop website](https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/){target="_blank"}: in case you are interested you can complete all the exercises yourself! 
+The course materials are available at the [workshop website](https://carpentries-incubator.github.io/reproducible-research-through-reusable-code-in-1-day/){target="_blank"}: in case you are interested you can complete all the exercises yourself! 
 
 ![Impression of the Reproducible research through reusable code workshop, 3 December 2024](fig/reusable-code_impression_20241203.jpg){width=550}
 
